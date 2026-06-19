@@ -60,7 +60,6 @@ A reliable, non-destructive prediction model would let the company monitor crop 
 Today, the cultivation facility runs fully on-premises: sensors feed raw growth data into a local controller, which forwards data and photos to shared storage. To get the ground-truth rhizome weight, an operator still has to **manually remove the plant container** and weigh the rhizome by hand.
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#000000', 'primaryTextColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff', 'mainBkg': '#ffffff', 'clusterBkg': '#ffffff', 'clusterBorder': '#000000', 'edgeLabelBackground': '#ffffff', 'textColor': '#000000' }}}%%
 flowchart LR
     PC["Process Chamber<br/>(Plants)"] -- sensor data --> PLC["Local Controller (PLC)"]
     EnvCtrl["Environment Control"] --> PC
