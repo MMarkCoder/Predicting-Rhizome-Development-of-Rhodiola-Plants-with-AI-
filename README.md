@@ -72,7 +72,6 @@ flowchart LR
 Two candidate use cases were derived from the AS-IS process, both serving the same higher-level goal of accelerating plant growth:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#000000', 'primaryTextColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff', 'mainBkg': '#ffffff', 'clusterBkg': '#ffffff', 'clusterBorder': '#000000', 'edgeLabelBackground': '#ffffff', 'textColor': '#000000' }}}%%
 flowchart LR
     Op["Operator / User"] --> UC1["Optimize the<br/>Cultivation Process"]
     Op --> UC2["Predict Rhizome<br/>Development"]
@@ -124,7 +123,6 @@ Plants were labeled into three development classes based on final rhizome weight
 ### 6. Building the data pipeline
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#000000', 'primaryTextColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff', 'mainBkg': '#ffffff', 'clusterBkg': '#ffffff', 'clusterBorder': '#000000', 'edgeLabelBackground': '#ffffff', 'textColor': '#000000' }}}%%
 flowchart LR
     D1["Evaluation Dataset (CSV)"] --> EDA["EDA"]
     D2["Fresh-Weight Dataset (CSV)"] --> EDA
@@ -182,7 +180,6 @@ To move beyond a single-facility PoC, the project outlines a cloud platform with
 - **Governance** — EU AI Act, EU Data Act, data protection, access-rights concept
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#000000', 'primaryTextColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff', 'mainBkg': '#ffffff', 'clusterBkg': '#ffffff', 'clusterBorder': '#000000', 'edgeLabelBackground': '#ffffff', 'textColor': '#000000' }}}%%
 flowchart TB
     subgraph OnPrem["On-Premises"]
         Facility["Plant Cultivation Facility"]
@@ -218,7 +215,6 @@ flowchart TB
 The long-term vision is to let humans **talk to the cultivation facility in natural language**, combining sensors, CV/ML models, and generative AI:
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryBorderColor': '#000000', 'primaryTextColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff', 'mainBkg': '#ffffff', 'clusterBkg': '#ffffff', 'clusterBorder': '#000000', 'edgeLabelBackground': '#ffffff', 'textColor': '#000000' }}}%%
 flowchart LR
     Human["Human"] -- asks a question --> Agent["Plant Agent"]
     Agent --> Sensors["Sensor Data"]
